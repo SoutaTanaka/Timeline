@@ -6,8 +6,7 @@ import JSQMessagesViewController
 import Firebase
 import FirebaseDatabase
 class MessageViewController: JSQMessagesViewController {
-    var ref = FIRDatabase.database().reference()
-
+   
    
     var messages: [JSQMessage]?
     var incomingBubble: JSQMessagesBubbleImage!
@@ -19,7 +18,8 @@ class MessageViewController: JSQMessagesViewController {
         
         // 最新25件のデータをデータベースから取得する
         // 最新のデータ追加されるたびに最新データを取得する
-        
+        var ref = FIRDatabase.database().reference()
+
         ref.queryLimited(toLast: 25).observe(.childAdded, with: { (snapshot) in
             guard let value = snapshot.value as? [String: [String]] else {
                 return
@@ -53,8 +53,8 @@ class MessageViewController: JSQMessagesViewController {
         self.outgoingBubble = bubbleFactory?.outgoingMessagesBubbleImage(with: UIColor.jsq_messageBubbleBlue())
         
         //アバターの設定
-        self.incomingAvatar = JSQMessagesAvatarImageFactory.avatarImage(with: UIImage(named: "Swift-Logo")!, diameter: 64)
-        self.outgoingAvatar = JSQMessagesAvatarImageFactory.avatarImage(with: UIImage(named: "Swift-Logo")!, diameter: 64)
+        self.incomingAvatar = JSQMessagesAvatarImageFactory.avatarImage(with: #imageLiteral(resourceName: "Swift-Logo"), diameter: 64)
+        self.outgoingAvatar = JSQMessagesAvatarImageFactory.avatarImage(with: #imageLiteral(resourceName: "Swift-Logo"), diameter: 64)
         
         //メッセージデータの配列を初期化
         self.messages = []
@@ -68,7 +68,8 @@ class MessageViewController: JSQMessagesViewController {
     
     //Sendボタンが押された時に呼ばれる
     func didPressSendButton(button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: NSDate!) {
-        
+        var ref = FIRDatabase.database().reference()
+
         //メッセジの送信処理を完了する(画面上にメッセージが表示される)
         self.finishReceivingMessage(animated: true)
         

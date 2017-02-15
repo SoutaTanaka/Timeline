@@ -15,11 +15,11 @@
 		05D969991E0D03B6005E9B6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D969981E0D03B6005E9B6E /* ViewController.swift */; };
 		05D9699C1E0D03B6005E9B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D9699A1E0D03B6005E9B6E /* Main.storyboard */; };
 		05D9699E1E0D03B6005E9B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D9699D1E0D03B6005E9B6E /* Assets.xcassets */; };
-		05D969A11E0D03B6005E9B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D9699F1E0D03B6005E9B6E /* LaunchScreen.storyboard */; };
 		05D969AC1E0D03B6005E9B6E /* Timeline1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D969AB1E0D03B6005E9B6E /* Timeline1Tests.swift */; };
 		05D969B71E0D03B6005E9B6E /* Timeline1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D969B61E0D03B6005E9B6E /* Timeline1UITests.swift */; };
 		05D978D51E0F9F0100508F56 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D978D41E0F9F0100508F56 /* PostViewController.swift */; };
 		05FB19551E0DF8E70064045B /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FB19541E0DF8E70064045B /* CustomCell.xib */; };
+		05FC2F6A1E546C18009191BD /* Swift-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05FC2F691E546C18009191BD /* Swift-Logo.jpg */; };
 		D05063B3A8C9DBCE9BF4C7B8 /* Pods_Timeline1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97BC2089F63DD41CE622C41 /* Pods_Timeline1.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +50,6 @@
 		05D969981E0D03B6005E9B6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05D9699B1E0D03B6005E9B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05D9699D1E0D03B6005E9B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05D969A01E0D03B6005E9B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05D969A21E0D03B6005E9B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D969A71E0D03B6005E9B6E /* Timeline1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Timeline1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D969AB1E0D03B6005E9B6E /* Timeline1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline1Tests.swift; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		05D969B81E0D03B6005E9B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D978D41E0F9F0100508F56 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		05FB19541E0DF8E70064045B /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		05FC2F691E546C18009191BD /* Swift-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Swift-Logo.jpg"; sourceTree = "<group>"; };
 		0DB53F7FA8DEABF7FFAAAD97 /* Pods-Timeline1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timeline1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timeline1/Pods-Timeline1.release.xcconfig"; sourceTree = "<group>"; };
 		952D85D1DEAA06DA124B3E19 /* Pods-Timeline1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timeline1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timeline1/Pods-Timeline1.debug.xcconfig"; sourceTree = "<group>"; };
 		A97BC2089F63DD41CE622C41 /* Pods_Timeline1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timeline1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,16 +116,16 @@
 		05D969951E0D03B6005E9B6E /* Timeline1 */ = {
 			isa = PBXGroup;
 			children = (
+				05FC2F691E546C18009191BD /* Swift-Logo.jpg */,
 				0559F0D31E0D04520080960F /* GoogleService-Info.plist */,
 				05D969961E0D03B6005E9B6E /* AppDelegate.swift */,
 				05D969981E0D03B6005E9B6E /* ViewController.swift */,
 				05D978D41E0F9F0100508F56 /* PostViewController.swift */,
-				059B622A1E2647A900E0A450 /* MassegeDataController.swift */,
 				0579D15B1E0F50E300BED180 /* CustomCell.swift */,
+				059B622A1E2647A900E0A450 /* MassegeDataController.swift */,
 				05D819C11E38C449004002E1 /* MessageViewController.swift */,
 				05D9699A1E0D03B6005E9B6E /* Main.storyboard */,
 				05D9699D1E0D03B6005E9B6E /* Assets.xcassets */,
-				05D9699F1E0D03B6005E9B6E /* LaunchScreen.storyboard */,
 				05D969A21E0D03B6005E9B6E /* Info.plist */,
 				05FB19541E0DF8E70064045B /* CustomCell.xib */,
 			);
@@ -278,11 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D969A11E0D03B6005E9B6E /* LaunchScreen.storyboard in Resources */,
 				0559F0D41E0D04520080960F /* GoogleService-Info.plist in Resources */,
 				05D9699E1E0D03B6005E9B6E /* Assets.xcassets in Resources */,
 				05D9699C1E0D03B6005E9B6E /* Main.storyboard in Resources */,
 				05FB19551E0DF8E70064045B /* CustomCell.xib in Resources */,
+				05FC2F6A1E546C18009191BD /* Swift-Logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,14 +402,6 @@
 				05D9699B1E0D03B6005E9B6E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		05D9699F1E0D03B6005E9B6E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05D969A01E0D03B6005E9B6E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

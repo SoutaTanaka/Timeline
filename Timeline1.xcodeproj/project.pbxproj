@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0559F0D41E0D04520080960F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0559F0D31E0D04520080960F /* GoogleService-Info.plist */; };
 		0579D15C1E0F50E300BED180 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0579D15B1E0F50E300BED180 /* CustomCell.swift */; };
-		059B622B1E2647A900E0A450 /* MassegeDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B622A1E2647A900E0A450 /* MassegeDataController.swift */; };
 		05D819C21E38C449004002E1 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D819C11E38C449004002E1 /* MessageViewController.swift */; };
 		05D969971E0D03B6005E9B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D969961E0D03B6005E9B6E /* AppDelegate.swift */; };
 		05D969991E0D03B6005E9B6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D969981E0D03B6005E9B6E /* ViewController.swift */; };
@@ -20,6 +18,7 @@
 		05D978D51E0F9F0100508F56 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D978D41E0F9F0100508F56 /* PostViewController.swift */; };
 		05FB19551E0DF8E70064045B /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05FB19541E0DF8E70064045B /* CustomCell.xib */; };
 		05FC2F6A1E546C18009191BD /* Swift-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05FC2F691E546C18009191BD /* Swift-Logo.jpg */; };
+		46AFA8041E70128800153787 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46AFA8031E70128800153787 /* GoogleService-Info.plist */; };
 		D05063B3A8C9DBCE9BF4C7B8 /* Pods_Timeline1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97BC2089F63DD41CE622C41 /* Pods_Timeline1.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,9 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0559F0D31E0D04520080960F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0579D15B1E0F50E300BED180 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		059B622A1E2647A900E0A450 /* MassegeDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassegeDataController.swift; sourceTree = "<group>"; };
 		05D819C11E38C449004002E1 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		05D969931E0D03B6005E9B6E /* Timeline1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeline1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D969961E0D03B6005E9B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +58,7 @@
 		05FB19541E0DF8E70064045B /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		05FC2F691E546C18009191BD /* Swift-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Swift-Logo.jpg"; sourceTree = "<group>"; };
 		0DB53F7FA8DEABF7FFAAAD97 /* Pods-Timeline1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timeline1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timeline1/Pods-Timeline1.release.xcconfig"; sourceTree = "<group>"; };
+		46AFA8031E70128800153787 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		952D85D1DEAA06DA124B3E19 /* Pods-Timeline1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timeline1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Timeline1/Pods-Timeline1.debug.xcconfig"; sourceTree = "<group>"; };
 		A97BC2089F63DD41CE622C41 /* Pods_Timeline1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timeline1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,12 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				05FC2F691E546C18009191BD /* Swift-Logo.jpg */,
-				0559F0D31E0D04520080960F /* GoogleService-Info.plist */,
+				46AFA8031E70128800153787 /* GoogleService-Info.plist */,
 				05D969961E0D03B6005E9B6E /* AppDelegate.swift */,
 				05D969981E0D03B6005E9B6E /* ViewController.swift */,
 				05D978D41E0F9F0100508F56 /* PostViewController.swift */,
 				0579D15B1E0F50E300BED180 /* CustomCell.swift */,
-				059B622A1E2647A900E0A450 /* MassegeDataController.swift */,
 				05D819C11E38C449004002E1 /* MessageViewController.swift */,
 				05D9699A1E0D03B6005E9B6E /* Main.storyboard */,
 				05D9699D1E0D03B6005E9B6E /* Assets.xcassets */,
@@ -238,7 +235,7 @@
 				TargetAttributes = {
 					05D969921E0D03B6005E9B6E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = CR32WVALWW;
+						DevelopmentTeam = B4S4333JDW;
 						ProvisioningStyle = Automatic;
 					};
 					05D969A61E0D03B6005E9B6E = {
@@ -278,9 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0559F0D41E0D04520080960F /* GoogleService-Info.plist in Resources */,
 				05D9699E1E0D03B6005E9B6E /* Assets.xcassets in Resources */,
 				05D9699C1E0D03B6005E9B6E /* Main.storyboard in Resources */,
+				46AFA8041E70128800153787 /* GoogleService-Info.plist in Resources */,
 				05FB19551E0DF8E70064045B /* CustomCell.xib in Resources */,
 				05FC2F6A1E546C18009191BD /* Swift-Logo.jpg in Resources */,
 			);
@@ -356,7 +353,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D978D51E0F9F0100508F56 /* PostViewController.swift in Sources */,
-				059B622B1E2647A900E0A450 /* MassegeDataController.swift in Sources */,
 				0579D15C1E0F50E300BED180 /* CustomCell.swift in Sources */,
 				05D969991E0D03B6005E9B6E /* ViewController.swift in Sources */,
 				05D819C21E38C449004002E1 /* MessageViewController.swift in Sources */,
@@ -505,7 +501,7 @@
 			baseConfigurationReference = 952D85D1DEAA06DA124B3E19 /* Pods-Timeline1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CR32WVALWW;
+				DEVELOPMENT_TEAM = B4S4333JDW;
 				INFOPLIST_FILE = Timeline1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -520,7 +516,7 @@
 			baseConfigurationReference = 0DB53F7FA8DEABF7FFAAAD97 /* Pods-Timeline1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CR32WVALWW;
+				DEVELOPMENT_TEAM = B4S4333JDW;
 				INFOPLIST_FILE = Timeline1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
